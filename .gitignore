@@ -1,0 +1,49 @@
+# === Ambientes Virtuais ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Cache do Python e Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Variáveis de Ambiente e Segredos ===
+*.env
+.env.local
+.env.*.local
+
+# === Coleta de Cobertura e Testes (pytest / coverage) ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.hypothesis/
+
+# === Configurações de IDEs e Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === Distribuíveis e Pacotes (caso crie uma lib) ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg

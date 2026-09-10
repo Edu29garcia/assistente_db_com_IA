@@ -1,0 +1,7 @@
+sqlalchemy
+pandas
+python-dotenv
+pandasai>=3.0
+pandasai-litellm
+gradio
+tabulate
