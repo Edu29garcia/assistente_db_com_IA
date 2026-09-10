@@ -1,0 +1,23 @@
+name: clientes
+source:
+  type: parquet
+  path: data.parquet
+description: "A tabela **Clientes** armazena os dados cadastrais de cada cliente \u2013\
+  \ identificados por `ID_Cliente` \u2013 incluindo nome, e\u2011mail, endere\xE7\
+  o (rua e n\xFAmero) e estado de resid\xEAncia, al\xE9m do total gasto (`Valor_gasto`).\
+  \ Ela permite responder perguntas como \u201CQual o valor total gasto por cliente\
+  \ ou por estado?\u201D, \u201CQuais s\xE3o os clientes que moram em determinado\
+  \ estado?\u201D ou \u201CQual cliente tem o maior gasto\u201D."
+columns:
+- name: ID_Cliente
+  type: integer
+- name: Nome
+  type: string
+- name: Email
+  type: string
+- name: Rua_Numero
+  type: string
+- name: Estado
+  type: string
+- name: Valor_gasto
+  type: integer

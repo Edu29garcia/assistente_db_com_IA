@@ -1,0 +1,34 @@
+name: funcionarios
+source:
+  type: parquet
+  path: data.parquet
+description: "A tabela **Funcionarios** armazena os dados cadastrais e de contato\
+  \ dos colaboradores de uma empresa, incluindo identificador, nome, cargo, data de\
+  \ contrata\xE7\xE3o, telefone, e\u2011mail e endere\xE7o completo. Com essas informa\xE7\
+  \xF5es \xE9 poss\xEDvel responder consultas como \u201Cquais s\xE3o os funcion\xE1\
+  rios de um determinado cargo ou data de admiss\xE3o\u201D, \u201Cqual o telefone\
+  \ ou e\u2011mail de um colaborador espec\xEDfico\u201D e \u201Cqual a distribui\xE7\
+  \xE3o geogr\xE1fica dos funcion\xE1rios por cidade, bairro ou CEP\u201D."
+columns:
+- name: ID_Funcionarios
+  type: integer
+- name: Nome
+  type: string
+- name: Cargo
+  type: string
+- name: DataContratacao
+  type: string
+- name: Telefone
+  type: integer
+- name: Email
+  type: string
+- name: Rua
+  type: string
+- name: Bairro
+  type: string
+- name: Cidade
+  type: string
+- name: Estado
+  type: string
+- name: cep
+  type: integer

@@ -1,0 +1,32 @@
+name: fornecedores
+source:
+  type: parquet
+  path: data.parquet
+description: "A tabela **Fornecedores** armazena os dados cadastrais das empresas\
+  \ fornecedoras, incluindo identificador, nome, contato comercial, telefone, e\u2011\
+  mail e endere\xE7o completo (rua, bairro, cidade, estado e CEP). Ela permite responder\
+  \ consultas como \u201CQual o telefone ou e\u2011mail de um fornecedor espec\xED\
+  fico?\u201D, \u201CQuais fornecedores est\xE3o localizados em determinado munic\xED\
+  pio ou estado?\u201D ou ainda \u201CQual fornecedor atende a um determinado bairro\
+  \ ou CEP\u201D."
+columns:
+- name: ID_Fornecedores
+  type: integer
+- name: Nome
+  type: string
+- name: Contato
+  type: string
+- name: Telefone
+  type: integer
+- name: Email
+  type: string
+- name: Rua
+  type: string
+- name: Bairro
+  type: string
+- name: Cidade
+  type: string
+- name: Estado
+  type: string
+- name: cep
+  type: integer
